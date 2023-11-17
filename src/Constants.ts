@@ -1,29 +1,29 @@
 /*
 * Model Resources
 * */
-export const COLLISION_SCENE_URL = new URL("./assets/models/scene_collision.glb", import.meta.url).href;
-export const STATIC_SCENE_URL = new URL("./assets/models/scene_desk_obj.glb", import.meta.url).href;
+export const COLLISION_SCENE_URL = "https://shutie.bchend.cn/3d/scene_collision.glb";
+export const STATIC_SCENE_URL = "https://shutie.bchend.cn/3d/scene_desk_obj.glb";
 
 /*
 * Texture Resources
 * */
 export const BOARD_TEXTURES = [
-	new URL("./assets/boards/微信图片_20231116224857.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190131.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190134.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190137.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190204.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190208.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190212.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190216.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190223.jpg", import.meta.url).href,
-	new URL("./assets/boards/微信图片_20231117190253.jpg", import.meta.url).href
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231116224857.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190131.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190134.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190137.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190204.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190208.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190212.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190216.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190223.jpg",
+	"https://shutie.bchend.cn/tmp/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231117190253.jpg"
 ];
 
 /*
 * Audio Resources
 * */
-export const AUDIO_URL = new URL("./assets/audio/我记得.m4a", import.meta.url).href;
+export const AUDIO_URL = "https://shutie.bchend.cn/music/%E7%90%B5%E7%90%B6%E8%AF%AD%20-%20%E6%9E%97%E6%B5%B7.mp3";
 
 /*
 * Intro
